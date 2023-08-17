@@ -17,7 +17,6 @@ Elbrus Bootcamp | Phase-2 | Team project
 
 import torch
 import torch.nn as nn
-import torch
 import PIL
 
 from PIL import Image
