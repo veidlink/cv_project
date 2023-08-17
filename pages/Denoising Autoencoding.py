@@ -18,7 +18,7 @@ st.set_page_config(
 st.write('## Очищение документов от шумов с помощью автоэнкодера')
 
 device = 'cpu'
-model = torch.load('/home/veidlink/ds_bootcamp/cv_project/weights/AutoEncoderWeights.pth', map_location=device)
+model = torch.load('weights/AutoEncoderWeights.pth', map_location=device)
 model.eval()
 
 uploaded_file = st.file_uploader("##### Выберите файл...")

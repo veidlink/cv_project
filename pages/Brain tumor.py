@@ -21,9 +21,9 @@ st.set_page_config(
 st.write('## Детекция опухулей мозга по фотографии с помощью YOLOv5')
 
 model = torch.hub.load(
-'/home/veidlink/ds_bootcamp/cv_project/yolov5', # пути будем указывать гдето в локальном пространстве
+'models', # пути будем указывать гдето в локальном пространстве
 'custom', # непредобученная
-path='/home/veidlink/ds_bootcamp/cv_project/weights/OpuholWeights.pt', # путь к нашим весам
+path='weights/OpuholWeights.pt', # путь к нашим весам
 source='local' # откуда берем модель – наша локальная
 )
 
