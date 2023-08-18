@@ -113,3 +113,4 @@ Werkzeug==2.3.7
 wget==3.2
 yolov5==7.0.12
 zipp==3.16.2
+opencv-python==4.5.3
