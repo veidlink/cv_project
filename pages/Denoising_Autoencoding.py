@@ -1,7 +1,6 @@
 import streamlit as st
 import torch
-from AutoEncoderClass import ImprovedAutoencoderNoPooling
-from AutoEncoderClass import process_image
+from model.AutoEncoderClass import process_image, ImprovedAutoencoderNoPooling
 
 st.set_page_config(
     page_title='Очищение документов от шумов с помощью автоэнкодера',  # Setting page title
