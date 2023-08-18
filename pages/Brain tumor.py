@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import requests
-
+import cv2
 from torchvision import transforms as T
 from PIL import Image
 from io import BytesIO
@@ -21,7 +21,7 @@ st.set_page_config(
 st.write('## Детекция опухулей мозга по фотографии с помощью YOLOv5')
 
 model = torch.hub.load(
-'yolov5', # пути будем указывать гдето в локальном пространстве
+'yolo', # пути будем указывать гдето в локальном пространстве
 'custom', # непредобученная
 path='weights/OpuholWeights.pt', # путь к нашим весам
 source='local' # откуда берем модель – наша локальная
