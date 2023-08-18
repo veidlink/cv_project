@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import requests
-import cv2
 from torchvision import transforms as T
 from PIL import Image
 from io import BytesIO
