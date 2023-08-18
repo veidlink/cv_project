@@ -32,7 +32,7 @@ from torchvision import transforms
 ### Как запустить локально?
 1. git clone
 2. Запустить терминал, cd в директорию
-3. streamlit run Home.py
+3. streamlit run app.py
 4. Пользоваться.
 
 ### Как задеплоить на Streamlit?
