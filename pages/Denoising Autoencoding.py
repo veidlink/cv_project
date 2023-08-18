@@ -11,7 +11,7 @@ from AutoEncoderClass import process_image
 
 
 st.set_page_config(
-    page_title='Очищение документов от шумов с помощью автоэнкодера',  # Setting page title
+    page_title='Очищение документов от шумов с помощью автоэнкодер',  # Setting page title
     page_icon="🤖"     # Setting page icon
 )
 
