@@ -45,6 +45,7 @@ class ImprovedAutoencoderNoPooling(nn.Module):
 
 
 def process_image(image_path, model):
+    
 
     ''' 
     Код выполняет следующие действия: 
