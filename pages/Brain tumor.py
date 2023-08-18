@@ -21,7 +21,7 @@ st.set_page_config(
 st.write('## Детекция опухулей мозга по фотографии с помощью YOLOv5')
 
 model = torch.hub.load(
-'yololo/models', # пути будем указывать гдето в локальном пространстве
+'yolov5/models', # пути будем указывать гдето в локальном пространстве
 'custom', # непредобученная
 path='weights/OpuholWeights.pt', # путь к нашим весам
 source='local' # откуда берем модель – наша локальная
