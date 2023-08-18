@@ -59,17 +59,14 @@ with torch.no_grad(): . Здесь  torch.no_grad()  указывает,
 5. Возвращает исходное изображение и выходное изображение. 
     
     '''
-    input_image = Image.open(image_path)
+    def process_image(image_path, model):
+    input_image = Image.open(image_path).convert('L')  # Convert to grayscale
     transform = transforms.Compose([
-        transforms.Resize((512, 512)),
+        transforms.Resize((1024, 1024)),
         transforms.ToTensor()
     ])
-
     tensor_image = transform(input_image).unsqueeze(0)
-
     with torch.no_grad():
         output_tensor = model(tensor_image)
-
     output_image = transforms.ToPILImage()(output_tensor.squeeze(0))
-
     return input_image, output_image
