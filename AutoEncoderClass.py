@@ -59,7 +59,6 @@ with torch.no_grad(): . Здесь  torch.no_grad()  указывает,
 5. Возвращает исходное изображение и выходное изображение. 
     
     '''
-    def process_image(image_path, model):
     input_image = Image.open(image_path).convert('L')  # Convert to grayscale
     transform = transforms.Compose([
         transforms.Resize((1024, 1024)),
