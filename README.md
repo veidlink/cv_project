@@ -21,28 +21,27 @@ Elbrus Bootcamp | Phase-2 | Team project
 
 ```typescript
 import torch
-import torch.nn as nn
 import PIL
+import requests
+import torch.nn as nn
 
 from PIL import Image
+from io import BytesIO
 from torchvision import transforms
 ```
 
 ## 📚 Гайд 
 ### Как запустить локально?
-1. git clone
-2. Запустить терминал, cd в директорию
-3. streamlit run Home.py
-4. Пользоваться.
 
-### Как задеплоить на Streamlit?
-1. 'New app'    
-2. Указать ссылку на репозиторий
+1. Чтобы создать виртуальную среду Python (virtualenv) для запуска кода, введите:
 
-![Alt text](image.png)
-3. В Main file path прописать название главной страницы
+    ``python3 -m venv my-env``.
 
-![Alt text](image-1.png)
-4. По желанию можно изменить ссылку на приложение.
+2. Активируйте новую среду:
 
-![Alt text](image-2.png)
+    * Windows: ```my-env\Scripts\activate.bat```
+    * macOS и Linux: ```source my-env/bin/activate```
+
+3. Установите все зависимости из файла *requirements.txt*:
+
+    ``pip install -r requirements.txt``..
