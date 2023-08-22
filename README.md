@@ -48,5 +48,5 @@ from torchvision import transforms
 
     ``pip install -r requirements.txt``..
 
-
+##
 UPD. В будущем будет добавлена сегментация галактик на фотографиях телескопов силами модели Mask R-CNN.
