@@ -1,27 +1,27 @@
 # cv_project
 
 # Computer Vision Project
-Elbrus Bootcamp | Phase-2 | Team project
+Elbrus Bootcamp | Phase-2 | Team Project
 
-## 🦸‍♂️Команда
-1. [Салман Чакаев](https://github.com/veidlink) 
-2. [Владислав Филиппов](https://github.com/Vlad1slawoo)
+## 🦸‍♂️ Team
+1. [Salman Chakaev](https://github.com/veidlink)
+2. [Vladislav Filippov](https://github.com/Vlad1slawoo)
 
-## 🎯 Задача
-Создать сервис для задания детекция с помощью YOLOv5, а также очищения изображения от шума с помощью собственного класса AutoEncoder.
+## 🎯 Task
+Create a service for object detection using YOLOv5 and image denoising using a custom AutoEncoder class.
 
-## 🪜 Содержание
+## 🪜 Contents
 
-1. Детекция ингридиентов пиццы с помощью YOLOv5
-2. Детекция опухулей мозга по фотографии с помощью YOLOv5
-3. Очищение документов от шумов с помощью автоэнкодера
+1. Pizza ingredient detection using YOLOv5
+2. Brain tumor detection from photographs using YOLOv5
+3. Document denoising using an autoencoder
 
-## 🌐 Деплоймент
-Сервис реализован на [Streamlit](https://tumorencofood.streamlit.app/Pizza_Ingridients)
+## 🌐 Deployment
+The service is implemented on [Streamlit](https://tumorencofood.streamlit.app/Pizza_Ingridients)
 
-## 📚 Библиотеки 
+## 📚 Libraries 
 
-```typescript
+```python
 import torch
 import PIL
 import requests
@@ -32,21 +32,21 @@ from io import BytesIO
 from torchvision import transforms
 ```
 
-## 📚 Гайд 
-### Как запустить локально?
+## 📚 Guide 
+### How to run locally?
 
-1. Чтобы создать виртуальную среду Python (virtualenv) для запуска кода, введите:
+1. To create a Python virtual environment for running the code, enter:
 
     ``python3 -m venv my-env``.
 
-2. Активируйте новую среду:
+2. Activate the new environment:
 
     * Windows: ```my-env\Scripts\activate.bat```
-    * macOS и Linux: ```source my-env/bin/activate```
+    * macOS and Linux: ```source my-env/bin/activate```
 
-3. Установите все зависимости из файла *requirements.txt*:
+3. Install all dependencies from the *requirements.txt* file:
 
     ``pip install -r requirements.txt``..
 
 ##
-UPD. В будущем будет добавлена сегментация галактик на фотографиях телескопов силами модели Mask R-CNN.
+UPD. In the future, galaxy segmentation from telescope photos using the Mask R-CNN model will be added.
