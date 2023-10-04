@@ -8,7 +8,7 @@ Elbrus Bootcamp | Phase-2 | Team Project
 2. [Vladislav Filippov](https://github.com/Vlad1slawoo)
 
 ## 🎯 Task
-Create a service for object detection using YOLOv5 and image denoising using a custom AutoEncoder class.
+Create a service for object detection with YOLOv5 and image denoising using a custom AutoEncoder class.
 
 ## 🪜 Contents
 
